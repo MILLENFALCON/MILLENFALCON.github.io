@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="generator" content="Hugo 0.69.0" />
+
+  <title>My New Hugo Site</title>
+
+  <meta name="description" content="" />
+
+  
+  <meta property="og:locale" content="en-us"/>
+
+  
+
+  
+  <meta property="og:type" content="blog"/>
+  <meta property="og:site_name" content="My New Hugo Site"/>
+  <meta property="og:title" content="My New Hugo Site"/>
+  <meta property="og:url" content="https://MILLENFALCON.github.io/"/>
+  <meta property="og:description" content=""/>
+
+  <script type="application/ld+json">
+  {
+    "@context" : "http://schema.org",
+    "@type" : "Blog",
+    "name": "My New Hugo Site",
+    "url" : "https://MILLENFALCON.github.io/",
+    "description": ""
+  }
+  </script>
+
+  
+
+
+  <link type="text/css"
+        rel="stylesheet"
+        href="https://MILLENFALCON.github.io/css/print.css"
+        media="print">
+
+  <link type="text/css"
+        rel="stylesheet"
+        href="https://MILLENFALCON.github.io/css/poole.css">
+
+  <link type="text/css"
+        rel="stylesheet"
+        href="https://MILLENFALCON.github.io/css/hyde.css">
+
+  
+
+
+  
+
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap">
+
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+        integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+        crossorigin="anonymous" />
+
+  <link rel="apple-touch-icon-precomposed"
+        sizes="144x144"
+        href="/apple-touch-icon-144-precomposed.png">
+
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="https://MILLENFALCON.github.io/index.xml" rel="alternate" type="application/rss+xml" title="My New Hugo Site" />
+  </head>
+<body>
+  <aside class="sidebar">
+  <div class="container">
+    <div class="sidebar-about">
+      
+        
+      
+
+      <h1>My New Hugo Site</h1>
+
+      
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li>
+          <a href="https://MILLENFALCON.github.io/">Home</a>
+        </li>
+        
+      </ul>
+    </nav>
+
+    <section class="social-icons">
+      
+    </section>
+  </div>
+</aside>
+
+
+  <main class="content container">
+  <div class="posts">
+  <article class="post">
+      <h1 class="post-title">
+        <a href="https://MILLENFALCON.github.io/post/blog1/">我的hugo搭建</a>
+      </h1>
+
+      <div class="post-date">
+        <time datetime="2020-04-19T23:02:55&#43;0800">Apr 19, 2020</time> · 1 min read
+      </div>
+
+      
+        我的第一篇博客&ndash;hugo搭建个人博客 搭建博客，我采用的是hugo，hugo是用go语言搭建的一个静态博客系统。具体步骤网上有很多，我就不赘述了，可以
+参考这篇文章：https://sb.sb/blog/migrate-to-hugo/ 或者这个视频：https://www.youtube.com/watch?v=J7XQ2FeTHLg
+我碰到的问题是:github中的文件通过git path clone不下来，后来发现问题，通俗点来说就是浏览器在外面，而gitpath在墙内。因此，可以通过在cmd中输入下面两个命令来改变：
+set http_proxy=127.0.0.1:1080 set https_proxy=127.0.0.1:1080
+本地ip和端口如果改过，就填改过的。 就这样，gitpath也去墙外了，但是要注意，只有当前cmd中有用，所以每次都要重输一下。 下一篇我们来谈一谈博客中内容的修改。
+      
+
+      
+    </article>
+</div>
+  </main>
+
+  <footer>
+  <div class="copyright">
+    &copy;  2020 · 
+  </div>
+</footer>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"
+          integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0="
+          crossorigin="anonymous"></script>
+
+  
+
+  
+</body>
+</html>

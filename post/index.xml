@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>https://MILLENFALCON.github.io/post/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 Apr 2020 23:02:55 +0800</lastBuildDate>
+    
+	<atom:link href="https://MILLENFALCON.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>我的hugo搭建</title>
+      <link>https://MILLENFALCON.github.io/post/blog1/</link>
+      <pubDate>Sun, 19 Apr 2020 23:02:55 +0800</pubDate>
+      
+      <guid>https://MILLENFALCON.github.io/post/blog1/</guid>
+      <description>我的第一篇博客&amp;ndash;hugo搭建个人博客 搭建博客，我采用的是hugo，hugo是用go语言搭建的一个静态博客系统。具体步骤网上有很多，我就不赘述了，可以
+参考这篇文章：https://sb.sb/blog/migrate-to-hugo/ 或者这个视频：https://www.youtube.com/watch?v=J7XQ2FeTHLg
+我碰到的问题是:github中的文件通过git path clone不下来，后来发现问题，通俗点来说就是浏览器在外面，而gitpath在墙内。因此，可以通过在cmd中输入下面两个命令来改变：
+set http_proxy=127.0.0.1:1080 set https_proxy=127.0.0.1:1080
+本地ip和端口如果改过，就填改过的。 就这样，gitpath也去墙外了，但是要注意，只有当前cmd中有用，所以每次都要重输一下。 下一篇我们来谈一谈博客中内容的修改。</description>
+    </item>
+    
+  </channel>
+</rss>
